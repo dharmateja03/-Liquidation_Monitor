@@ -203,14 +203,7 @@ docker-compose down -v
 docker-compose up -d
 ```
 
-**Database connection failed?**
-```bash
-# Check if TimescaleDB is running
-docker ps | grep timescaledb
 
-# View logs
-docker logs timescaledb
-```
 
 **No data in Grafana?**
 1. Make sure producers are running
@@ -220,9 +213,6 @@ docker logs timescaledb
 docker exec timescaledb psql -U postgres -d crypto_signals -c "SELECT COUNT(*) FROM prices;"
 ```
 
-## Contributing
-
-Found a bug? Have an idea? Open an issue or PR. This is a learning project, so all feedback is welcome.
 
 ## License
 
@@ -231,3 +221,4 @@ MIT - Do whatever you want with it.
 ---
 
 *Built for learning Kafka, stream processing, and crypto market microstructure. Not financial advice. Don't trade based on this.*
+*This file is built with AI*
