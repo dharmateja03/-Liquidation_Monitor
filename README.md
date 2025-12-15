@@ -50,7 +50,7 @@ Etherscan API ──→ Stablecoin Producer ──↗
 ### 1. Clone and Start Infrastructure
 
 ```bash
-git clone https://github.com/yourusername/liquidation-cascade-monitor.git
+git clone https://github.com/dharmateja03/liquidation-cascade-monitor.git
 cd liquidation-cascade-monitor
 
 # Start Kafka, TimescaleDB, Grafana
